@@ -17,5 +17,5 @@ This is a simple Python program demonstrating **Object-Oriented Programming (OOP
    ```bash
    git clone https://github.com/aguchhait-stack/oop_practice.git
    cd oop_practice
-  
+   python OOP.py
    ```
