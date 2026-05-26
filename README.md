@@ -5,7 +5,7 @@
 | Classes | `BankAccount`, `SavingsAccount` |
 | Inheritance | `SavingsAccount(BankAccount)` |
 | Class Attributes | `MIN_BALANCE = 500` |
-| Dunder Methods | `__init__`, `__eq__`, `__repr__` |
+| Dunder Methods | `__init__`, `__eq__` |
 | Method Chaining | `deposit().apply_interest().withdraw()` |
 
 
