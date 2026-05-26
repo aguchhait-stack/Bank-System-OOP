@@ -14,7 +14,7 @@
 ```bash
 git clone https://github.com/aguchhait-stack/Bank-System-OOP.git
 cd Bank-System-OOP
-python main.py
+python3 main.py
 ```
 
 ## Next Steps
