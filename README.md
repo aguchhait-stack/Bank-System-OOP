@@ -1,21 +1,34 @@
-# 🏦 Bank Account Inheritance - OOP Practice
+# 🏦 Bank System — Python OOP
 
-## 📝 Description
-This is a simple Python program demonstrating **Object-Oriented Programming (OOP)** concepts:
-- **Inheritance**: `SavingsAccount` inherits from `BankAccount`
-- **Method chaining**: Methods return `self` to allow chaining
-- **Class attributes**: `MIN_SALARY` and `total_employees` tracking
+| Concept | Implementation |
+|---------|----------------|
+| Classes | `BankAccount`, `SavingsAccount` |
+| Inheritance | `SavingsAccount(BankAccount)` |
+| Class Attributes | `MIN_BALANCE = 500` |
+| Dunder Methods | `__init__`, `__eq__`, `__repr__` |
+| Method Chaining | `deposit().apply_interest().withdraw()` |
 
-## 🚀 How to Run
+## Structure
 
-### Prerequisites
-- Python 3.x installed on your system
+bank_system/
+├── src/
+│   ├── __init__.py
+│   ├── account.py
+│   └── savings.py
+├── main.py
+└── README.md
 
-### Steps to Run
+## Run
 
-1. **Clone the repository** (or download the file)
-   ```bash
-   git clone https://github.com/aguchhait-stack/oop_practice.git
-   cd oop_practice
-   python OOP.py
-   ```
+```bash
+git clone https://github.com/aguchhait-stack/Bank-System-OOP.git
+cd Bank-System-OOP
+python main.py
+```
+
+## GitHub
+[github.com/aguchhait-stack/Bank-System-OOP](https://github.com/aguchhait-stack/Bank-System-OOP)
+
+## Next Steps
+- [ ] Dockerfile
+
